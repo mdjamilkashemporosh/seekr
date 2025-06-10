@@ -107,6 +107,25 @@ Once running, open your browser and navigate to:
 ```bash
 http://localhost:5173
 ```
+## Demo 
+This is the landing or home screen where the user starts their journey in the application.
+![initial](https://github.com/user-attachments/assets/b8b6a2df-91b2-46b4-ad07-c8d62e1be13a)
+The user selects a specific topic they want to be tested or learn more about.
+![topic](https://github.com/user-attachments/assets/11381ab9-5e37-4c13-b4ec-69f7bb374c53)
+The user chooses the difficulty level for their questions — typically something like Easy, Medium, or Hard.
+![level](https://github.com/user-attachments/assets/f6832767-b869-4b19-a9df-97a80c8815ae)
+A loading screen appears while the system fetches or generates relevant questions based on the selected topic and difficulty.
+![ques-loading](https://github.com/user-attachments/assets/aac34cb0-211f-4901-9bd0-4d739b6fc8a1)
+A question is presented to the user, with input fields.
+![ques](https://github.com/user-attachments/assets/a0658873-f6d8-4c22-bcbe-ca1035dd0b28)
+Once the user submits an answer, the system calculating the response. 
+![answear-review](https://github.com/user-attachments/assets/6889882e-78a0-4c05-a11c-a2abbbc48289)
+After completing all questions, the user receives a summary or evaluation of their performance, possibly including score, strengths, and areas for improvement.
+![Evaluation](https://github.com/user-attachments/assets/7f537e84-9dbc-4215-b893-41483761135e)
+
+https://github.com/user-attachments/assets/8a654388-84bc-435b-878d-0d5d59a3bdf8
+
+
 ## Contributing
 
 If you would like to contribute to this web application, please open an issue on GitHub to discuss your ideas or proposed changes. Pull requests are also welcome.
