@@ -63,6 +63,50 @@ OLLAMA_MODEL=phi4
 # If running Ollama locally (on the same machine), use: http://localhost:11434
 OLLAMA_BASE_URL=http://host.docker.internal:11434
 ```
+# Running the app
+## Run with Docker (Recommended)
+From the root directory, run:
+```bash
+docker-compose -f docker-compose.dev.yml up --build
+```
+Once running, open your browser and navigate to:
+```bash
+http://localhost:5173
+```
+## Run Manually
+You can also run Seekr manually without Docker. Follow these steps:
+#### Start the Backend
+
+```bash
+# Navigate to the backend folder
+cd backend
+
+# (Optional) Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the backend server
+uvicorn main:app --reload
+```
+#### Start the Frontend
+In a new terminal window/tab, run:
+```bash
+# Navigate to the frontend folder
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the frontend dev server
+npm run dev
+```
+Once running, open your browser and navigate to:
+```bash
+http://localhost:5173
+```
 ## Contributing
 
 If you would like to contribute to this web application, please open an issue on GitHub to discuss your ideas or proposed changes. Pull requests are also welcome.
