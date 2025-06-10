@@ -18,8 +18,7 @@ export default function App() {
   const [selectedLevel, setSelectedLevel] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [qaList, setQaList] = useState<{ number: number; question: string; answer: string }[]>([{ number: 1, question: "What is React?", answer: "" },
-  { number: 2, question: "Explain the concept of a component in React.", answer: "" }]);
+  const [qaList, setQaList] = useState<{ number: number; question: string; answer: string }[]>([]);
 
   const handleStart = async () => {
     const result = selectionSchema.safeParse({
