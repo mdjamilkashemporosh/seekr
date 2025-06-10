@@ -62,5 +62,24 @@ allowed_topics = {
     "tensorflow",
     "pytorch",
     "data structures",
-    "algorithms"
+    "algorithms",
+
+    # Non-Technical Topics
+    ## Product Management
+    "product management", "product strategy", "roadmapping", "user research", "product analytics", "agile", "scrum",
+
+    ## Marketing
+    "digital marketing", "content marketing", "seo", "sem", "social media marketing", "email marketing", "marketing analytics", "brand management",
+
+    ## Sales
+    "sales strategy", "b2b sales", "b2c sales", "crm", "sales enablement", "sales analytics",
+
+    ## Human Resources
+    "recruiting", "talent management", "employee engagement", "hr analytics", "performance management",
+
+    ## Business & Operations
+    "business strategy", "market research", "competitive analysis", "operations management", "project management", "stakeholder management",
+
+    ## Communication & Soft Skills
+    "communication skills", "presentation skills", "negotiation", "conflict resolution", "leadership", "team collaboration"
 }
