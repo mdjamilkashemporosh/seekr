@@ -16,6 +16,10 @@ Seekr is an open-source AI interviewer built with open-source LLMs via Ollama. I
  - Easy to customize and extend
 
  - Full control and data privacy (runs locally)
+   
+ - Supports 10+ roles (e.g., intern, senior, CTO)
+   
+ - Covers 60+ topics (e.g., React, TypeScript, AWS)
 
 ## Supported Models
 
